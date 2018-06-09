@@ -1,0 +1,21 @@
+{
+  "name": "headless-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node runner.js",
+    "track": "node --trace-gc runner.js",
+    "debug": "node debug runner.js",
+    "node": "node ",
+    "casperjs": "casperjs ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LiuWill",
+  "license": "MIT",
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "cross-spawn": "^5.1.0",
+    "phantomjs": "^2.1.7+deprecated"
+  }
+}
